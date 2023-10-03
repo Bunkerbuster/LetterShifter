@@ -5,13 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-
-
 // Using DI for accesing the Services
 builder.Services.AddScoped<ITranslateString, TranslateString>();
-
-
-
 
 
 builder.Services.AddControllers();

@@ -31,17 +31,19 @@ namespace LetterShifterService.Services
                         // Translate the character using the dictionary
                         inputArray[i] = _TranslationTable[currentChar];
                     }
+
+                    // If it's not a lowercase character or not found in the dictionary, leave it unchanged
                 }
-                else 
+                else if (_Reverse == 0) 
                 {
                     if (char.IsLower(currentChar) && _TranslationTable.ContainsValue(currentChar))
                     {
                         // Translate the character using the dictionary but now on the value to get the Key
                         inputArray[i] = _TranslationTable.FirstOrDefault(x => x.Value == currentChar).Key; 
                     }
-                }
 
-                // If it's not a lowercase character or not found in the dictionary, leave it unchanged
+                    // If it's not a lowercase character or not found in the dictionary, leave it unchanged
+                }
             }
             return new string(inputArray);
         }
