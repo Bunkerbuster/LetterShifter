@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterShifter", "LetterShifter\LetterShifter.csproj", "{43F2976F-5651-435D-8473-A157A3054523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterShifterService", "LetterShifterService\LetterShifterService.csproj", "{598FF53D-2F34-401D-8349-37D0C3E3B2A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F2976F-5651-435D-8473-A157A3054523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F2976F-5651-435D-8473-A157A3054523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F2976F-5651-435D-8473-A157A3054523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F2976F-5651-435D-8473-A157A3054523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598FF53D-2F34-401D-8349-37D0C3E3B2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598FF53D-2F34-401D-8349-37D0C3E3B2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598FF53D-2F34-401D-8349-37D0C3E3B2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598FF53D-2F34-401D-8349-37D0C3E3B2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08CF4240-3854-4F57-A2E2-F9B5FCDF668B}
+	EndGlobalSection
+EndGlobal
