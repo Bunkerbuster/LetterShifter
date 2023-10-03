@@ -1,6 +1,5 @@
 ﻿using LetterShifterService.Interface;
 using LetterShifterService.Helper;
-using System.Security.Cryptography.X509Certificates;
 
 namespace LetterShifterService.Services
 {
